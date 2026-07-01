@@ -407,7 +407,7 @@ h4 {
   50% { transform: rotate(-10deg) translateY(-8px); }
 }
 .hero__marquee {
-  margin-top: 80px;
+  margin-top: 48px;
   border-top: 2px solid var(--forest);
   border-bottom: 2px solid var(--forest);
   padding: 14px 0;
