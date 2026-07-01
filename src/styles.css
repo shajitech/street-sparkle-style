@@ -324,17 +324,17 @@ h4 {
 /* === Hero === */
 .hero {
   position: relative;
-  padding: 60px 0 100px;
+  padding: 32px 0 56px;
   overflow: hidden;
 }
 .hero__grid {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 40px;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 32px;
   align-items: center;
 }
 .hero__title {
-  font-size: clamp(3.5rem, 11vw, 10rem);
+  font-size: clamp(2.75rem, 7.2vw, 6.5rem);
   color: var(--forest);
 }
 .hero__title .accent {
@@ -346,20 +346,20 @@ h4 {
   color: transparent;
 }
 .hero__lead {
-  margin-top: 24px;
+  margin-top: 18px;
   max-width: 520px;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   color: var(--forest-deep);
 }
 .hero__cta {
   display: flex;
-  gap: 16px;
-  margin-top: 32px;
+  gap: 14px;
+  margin-top: 22px;
   flex-wrap: wrap;
 }
 .hero__visual {
   position: relative;
-  height: 540px;
+  height: clamp(360px, 52vh, 480px);
 }
 .hero__img {
   position: absolute;
@@ -407,7 +407,7 @@ h4 {
   50% { transform: rotate(-10deg) translateY(-8px); }
 }
 .hero__marquee {
-  margin-top: 80px;
+  margin-top: 48px;
   border-top: 2px solid var(--forest);
   border-bottom: 2px solid var(--forest);
   padding: 14px 0;
