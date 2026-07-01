@@ -324,17 +324,17 @@ h4 {
 /* === Hero === */
 .hero {
   position: relative;
-  padding: 32px 0 56px;
+  padding: 48px 0 64px;
   overflow: hidden;
 }
 .hero__grid {
   display: grid;
   grid-template-columns: 1.1fr 1fr;
-  gap: 32px;
+  gap: 48px;
   align-items: center;
 }
 .hero__title {
-  font-size: clamp(2.75rem, 7.2vw, 6.5rem);
+  font-size: clamp(3.2rem, 9vw, 8.5rem);
   color: var(--forest);
 }
 .hero__title .accent {
