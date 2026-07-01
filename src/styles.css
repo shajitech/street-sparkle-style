@@ -359,7 +359,7 @@ h4 {
 }
 .hero__visual {
   position: relative;
-  height: clamp(360px, 52vh, 480px);
+  height: clamp(400px, 58vh, 560px);
 }
 .hero__img {
   position: absolute;
